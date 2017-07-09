@@ -18,9 +18,9 @@
             <div class="controls">
                 <input type="text" class="text input-large" name="price" value="{$info.price|default=''}">单位：
                 <select name="company">
-                            <option value="1" <if condition="$info.company eq 1"> selected</if>>元/月</option>
-                            <option value="2" <if condition="$info.company eq 2"> selected</if>>万元/月</option>
-                        </eq>
+                    <option value="1" <if condition="$info.company eq 1"> selected</if>>元/月</option>
+                    <option value="2" <if condition="$info.company eq 2"> selected</if>>万元/月</option>
+                    </eq>
                 </select>
             </div>
         </div>
@@ -28,8 +28,8 @@
             <label class="item-label">类型</label>
             <div class="controls">
                 <select name="types">
-                        <option value="1" <if condition="$info.company eq 1"> selected</if>>出售</option>
-                        <option value="2" <if condition="$info.company eq 2"> selected</if>>出租</option>
+                    <option value="1" <if condition="$info.company eq 1"> selected</if>>出售</option>
+                    <option value="2" <if condition="$info.company eq 2"> selected</if>>出租</option>
                 </select>
             </div>
         </div>
@@ -121,9 +121,8 @@
     <script type="text/javascript" src="__STATIC__/datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" charset="UTF-8"></script>
     <script type="text/javascript">
         /*Think.setValue("pid", {$info.pid|default = 0});
-        Think.setValue("hide", {$info.hide|default = 0});
-        Think.setValue("is_dev", {$info.is_dev|default = 0});*/
-
+         Think.setValue("hide", {$info.hide|default = 0});
+         Think.setValue("is_dev", {$info.is_dev|default = 0});*/
         //导航高亮
         highlight_subnav('{:U('index')}');
         $(function() {

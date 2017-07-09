@@ -151,7 +151,7 @@
         </form>
         <!-- 分页 -->
         <div class="page">
-
+            <div class="result page"><?php echo ($page); ?></div>
         </div>
     </div>
 
